@@ -1,7 +1,6 @@
 import Cube from './components/Cube';
 import './App.css';
 import { Github } from 'lucide-react';
-import { Helmet } from 'react-helmet';
 import  Rotating3DCube  from './components/Svg/cubeSvg';
 /**
  * The main application component.

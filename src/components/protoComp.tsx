@@ -504,7 +504,7 @@ interface CubieProps {
 /**
  * Individual cubie component with optimized geometry
  */
-const Cubie = React.forwardRef<THREE.Group, CubieProps>(({ type }, ref) => {
+const Cubie = React.forwardRef<THREE.Group, CubieProps>(({  }, ref) => {
   // Create a beveled cube geometry - memoized to avoid recreation
   const geometry = useMemo(() => {
     const size = 0.95;
