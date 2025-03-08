@@ -66,6 +66,9 @@ importers:
       globals:
         specifier: ^15.15.0
         version: 15.15.0
+      remix:
+        specifier: ^2.16.0
+        version: 2.16.0
       typescript:
         specifier: ~5.7.2
         version: 5.7.3
@@ -1229,6 +1232,10 @@ packages:
 
   regenerator-runtime@0.14.1:
     resolution: {integrity: sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==}
+
+  remix@2.16.0:
+    resolution: {integrity: sha512-vxiJLD6+TuFbUmZ1/tGGTCaUfyNVOtqXc7egFJAO6PR9ScPyI8l++7BoFCSylV2Trfc8bvC2W6qWHwZZZc1IpQ==}
+    engines: {node: '>=18.0.0'}
 
   require-from-string@2.0.2:
     resolution: {integrity: sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw==}
@@ -2479,6 +2486,8 @@ snapshots:
   react@19.0.0: {}
 
   regenerator-runtime@0.14.1: {}
+
+  remix@2.16.0: {}
 
   require-from-string@2.0.2: {}
 
